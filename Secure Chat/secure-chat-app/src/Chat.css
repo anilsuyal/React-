@@ -1,0 +1,39 @@
+/* src/Chat.css */
+.App {
+    text-align: center;
+  }
+  
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: #333;
+    color: white;
+  }
+  
+  section {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 60vh;
+    padding: 1rem;
+    overflow-y: scroll;
+  }
+  
+  form {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+  }
+  
+  input {
+    flex: 1;
+    padding: 0.5rem;
+  }
+  
+  button {
+    padding: 0.5rem 1rem;
+    margin-left: 1rem;
+  }
+  
